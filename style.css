@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.774);
+    /* width: 344px; */
+
+    display: flex;
+    /* width: 95vh; */
+
+    font-family: 'Noto Sans Mono', monospace;
+    transition: 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 28px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 80vw;
+    padding: 4px;
+
+}
+
+.Container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: green; */
+    width: 80vw;
+    width: 95vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    font-size: 15px;
+
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 2.2em;
+    margin-top: 24px;
+}
+
+.buttons {
+    margin-top: 16px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 24px;
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+
+
+}
+
+.btn-sm {
+    font-size: 13px;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: red;
+}
+
+.ParikshitPic img {
+    width: 35vh;
+}
+
+.contactform {
+    padding: 0 34px;
+
+    /* padding-top: 44px; */
+    margin: 20px 8px;
+
+
+}
+
+.contactform h1 {
+    text-align: left;
+}
+
+.contactform form div {
+    padding: 10px 0;
+}
+
+.contactform form {
+    margin: 0 30px;
+}
+
+#emailhelp {
+    font-size: 8px;
+    color: blue;
+    margin: o 5px;
+}
+
+
+
+.main h2 {
+
+    padding: 3px 3px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Intro {
+    margin: 20px 8px;
+}
+
+.Intro h1 {
+    margin: 8px;
+
+}
+
+.Intro h2 {
+    margin: 8px;
+}
+
+.SkillContainer {
+    padding: 12px;
+}
+
+.SkillItem {
+    display: flex;
+}
+
+.Skill {
+    width: 400px;
+    background-color: blue;
+
+    height: 6px;
+    ;
+}
+
+.blogContainer {
+    margin: 10px 88px;
+}
+
+.p40 {
+    width: 160px;
+
+}
+
+.p80 {
+    width: 320px;
+}
+
+.p60 {
+    width: 240px;
+}
+
+.p50 {
+    width: 200px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1206px) {
+
+    /* … */
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+
+    .devInfo {
+        font-size: 10px;
+    }
+
+    .Intro,
+    .blogContainer,
+    .contactform {
+        margin: 50px, 8px;
+    }
+
+    .ParikshitPic {
+        display: none;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parikshit Raj - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="Container">
+        <div class="sidebar">
+
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">contact me</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="ham" width="23">
+                <img class="cross" src="cross.png" alt="cross" width="23">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for the work/general enquiry</h1>
+                <form>
+
+                    <div class="mb-3">
+                        <label for="clientmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientPhone" class="form-label">Phone No</label>
+                        <input type="PhoneNo" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="enquiry" class="form-label">enquiry</label>
+                        <input type="text" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="isClient">
+                        <label class="form-check-label" for="isClient">I want to you to work with me on a
+                            project</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
